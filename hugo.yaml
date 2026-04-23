@@ -1,0 +1,35 @@
+baseURL: "https://chiho-nyugan-kanwa.com/"
+languageCode: "ja"
+title: "地方住み医師の乳癌と緩和ケア相談所"
+theme: "PaperMod"
+
+params:
+  homeInfoParams:
+    Title: "地方住み医師の乳癌と緩和ケア相談所"
+    Content: >
+      高知県在住の乳腺外科・緩和ケア専門医が、乳がんや緩和ケアについてわかりやすく解説します。
+      患者さん・ご家族の方が正しい知識を持てるよう、専門的な情報を丁寧にお届けします。
+
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowToc: true
+
+menu:
+  main:
+    - identifier: "nyugan"
+      name: "乳がん"
+      url: "/categories/乳がん/"
+      weight: 10
+    - identifier: "kanwa"
+      name: "緩和ケア"
+      url: "/categories/緩和ケア/"
+      weight: 20
+    - identifier: "about"
+      name: "このブログについて"
+      url: "/about/"
+      weight: 30
+
+taxonomies:
+  category: "categories"
+  tag: "tags"
