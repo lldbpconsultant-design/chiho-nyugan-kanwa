@@ -32,6 +32,50 @@ article.category-kanwa {
     padding: 2px 10px;
 }
 
+/* カテゴリーカード グリッド */
+.category-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 12px;
+    margin: 24px 0 32px;
+}
+
+.category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 8px;
+    border-radius: 10px;
+    text-decoration: none !important;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.category-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card-icon { font-size: 1.8em; margin-bottom: 6px; }
+.card-title { font-weight: bold; font-size: 0.95em; margin-bottom: 2px; }
+.card-desc { font-size: 0.75em; color: #666; text-align: center; }
+
+.card-nyugan { background-color: #FFF5F8; border-color: #F0A8BF; }
+.card-nyugan .card-title { color: #B5446E; }
+
+.card-kanwa { background-color: #FFF5EE; border-color: #F5C08A; }
+.card-kanwa .card-title { color: #C4621A; }
+
+.card-okane { background-color: #EFF8FF; border-color: #A8D4F0; }
+.card-okane .card-title { color: #1A6494; }
+
+.card-kyoiku { background-color: #F0FAF0; border-color: #A8D4A8; }
+.card-kyoiku .card-title { color: #2A7A2A; }
+
+.card-soccer { background-color: #FFF0F0; border-color: #F0A8A8; }
+.card-soccer .card-title { color: #B54444; }
+
 /* 目次の背景を白に */
 .toc {
     background-color: #ffffff;
