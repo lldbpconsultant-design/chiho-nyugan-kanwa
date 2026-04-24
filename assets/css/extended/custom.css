@@ -1,11 +1,11 @@
-/* 乳がん記事：背景色 */
+/* 乳がん：背景色（記事ページ・一覧カード共通） */
 article.category-nyugan {
     background-color: #FFF5F8;
     border-radius: 8px;
     padding: 1rem;
 }
 
-/* 緩和ケア記事：背景色 */
+/* 緩和ケア：背景色（記事ページ・一覧カード共通） */
 article.category-kanwa {
     background-color: #FFF5EE;
     border-radius: 8px;
