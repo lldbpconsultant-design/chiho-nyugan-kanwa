@@ -77,6 +77,14 @@ article.category-kanwa {
 .card-soccer { background-color: #FFF0F0; border-color: #F0A8A8; }
 .card-soccer .card-title { color: #B54444; }
 
+/* インフォグラフィック表示切替 */
+.infographic-mobile { display: none; }
+.infographic-desktop { display: block; }
+@media (max-width: 768px) {
+  .infographic-mobile { display: block; }
+  .infographic-desktop { display: none; }
+}
+
 /* スマホでのタイトル文字サイズ調整 */
 @media (max-width: 480px) {
     .logo a {
