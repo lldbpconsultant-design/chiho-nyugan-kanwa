@@ -1,0 +1,31 @@
+/* 乳がんカテゴリー：淡いピンク */
+.post-tags a[href*="乳がん"],
+.post-tags a[href*="%E4%B9%B3%E3%81%8C%E3%82%93"] {
+    background-color: #FFE4EC;
+    color: #B5446E !important;
+    border: 1px solid #F0A8BF;
+    border-radius: 4px;
+    padding: 2px 10px;
+}
+
+/* 緩和ケアカテゴリー：淡いオレンジ */
+.post-tags a[href*="緩和ケア"],
+.post-tags a[href*="%E7%B7%A9%E5%92%8C%E3%82%B1%E3%82%A2"] {
+    background-color: #FFF0E0;
+    color: #C4621A !important;
+    border: 1px solid #F5C08A;
+    border-radius: 4px;
+    padding: 2px 10px;
+}
+
+/* ナビメニュー：乳がん */
+#menu a[href*="乳がん"],
+#menu a[href*="%E4%B9%B3%E3%81%8C%E3%82%93"] {
+    color: #B5446E !important;
+}
+
+/* ナビメニュー：緩和ケア */
+#menu a[href*="緩和ケア"],
+#menu a[href*="%E7%B7%A9%E5%92%8C%E3%82%B1%E3%82%A2"] {
+    color: #C4621A !important;
+}
