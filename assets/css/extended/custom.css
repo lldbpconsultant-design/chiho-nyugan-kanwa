@@ -38,6 +38,27 @@ article.category-kanwa {
     border: 1px solid #e0e0e0;
 }
 
+/* お金・生活：水色 */
+article.category-okane {
+    background-color: #EFF8FF;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+/* 教育・キャリア：淡い緑 */
+article.category-kyoiku {
+    background-color: #F0FAF0;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+/* サッカー・体験談：淡い赤 */
+article.category-soccer {
+    background-color: #FFF0F0;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
 /* ナビメニュー：乳がん */
 #menu a[href*="乳がん"],
 #menu a[href*="%E4%B9%B3%E3%81%8C%E3%82%93"] {

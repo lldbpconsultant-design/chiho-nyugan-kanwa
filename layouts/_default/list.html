@@ -66,6 +66,9 @@
 {{- range $page.GetTerms "categories" }}
   {{- if eq .LinkTitle "乳がん" }}{{- $class = printf "%s category-nyugan" $class }}{{- end }}
   {{- if eq .LinkTitle "緩和ケア" }}{{- $class = printf "%s category-kanwa" $class }}{{- end }}
+  {{- if eq .LinkTitle "お金・生活" }}{{- $class = printf "%s category-okane" $class }}{{- end }}
+  {{- if eq .LinkTitle "教育・キャリア" }}{{- $class = printf "%s category-kyoiku" $class }}{{- end }}
+  {{- if or (eq .LinkTitle "サッカー") (eq .LinkTitle "体験談") }}{{- $class = printf "%s category-soccer" $class }}{{- end }}
 {{- end }}
 
 <article class="{{ $class }}">

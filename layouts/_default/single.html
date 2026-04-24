@@ -2,12 +2,18 @@
 
 {{- $isNyugan := false }}
 {{- $isKanwa := false }}
+{{- $isOkane := false }}
+{{- $isKyoiku := false }}
+{{- $isSoccer := false }}
 {{- range .GetTerms "categories" }}
   {{- if eq .LinkTitle "乳がん" }}{{- $isNyugan = true }}{{- end }}
   {{- if eq .LinkTitle "緩和ケア" }}{{- $isKanwa = true }}{{- end }}
+  {{- if eq .LinkTitle "お金・生活" }}{{- $isOkane = true }}{{- end }}
+  {{- if eq .LinkTitle "教育・キャリア" }}{{- $isKyoiku = true }}{{- end }}
+  {{- if or (eq .LinkTitle "サッカー") (eq .LinkTitle "体験談") }}{{- $isSoccer = true }}{{- end }}
 {{- end }}
 
-<article class="post-single{{- if $isNyugan }} category-nyugan{{- end }}{{- if $isKanwa }} category-kanwa{{- end }}">
+<article class="post-single{{- if $isNyugan }} category-nyugan{{- end }}{{- if $isKanwa }} category-kanwa{{- end }}{{- if $isOkane }} category-okane{{- end }}{{- if $isKyoiku }} category-kyoiku{{- end }}{{- if $isSoccer }} category-soccer{{- end }}">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
     <h1 class="post-title entry-hint-parent">
