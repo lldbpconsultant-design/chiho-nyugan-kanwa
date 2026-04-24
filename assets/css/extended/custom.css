@@ -63,6 +63,7 @@ article.category-kanwa {
 
 .card-nyugan { background-color: #FFF5F8; border-color: #F0A8BF; }
 .card-nyugan .card-title { color: #B5446E; }
+.card-nyugan .card-icon { filter: hue-rotate(290deg) saturate(2); }
 
 .card-kanwa { background-color: #FFF5EE; border-color: #F5C08A; }
 .card-kanwa .card-title { color: #C4621A; }
