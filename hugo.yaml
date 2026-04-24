@@ -29,6 +29,10 @@ menu:
       name: "このブログについて"
       url: "/about/"
       weight: 30
+    - identifier: "contact"
+      name: "お問い合わせ"
+      url: "/contact/"
+      weight: 40
 
 taxonomies:
   category: "categories"
