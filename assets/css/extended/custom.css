@@ -32,6 +32,12 @@ article.category-kanwa {
     padding: 2px 10px;
 }
 
+/* 目次の背景を白に */
+.toc {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+
 /* ナビメニュー：乳がん */
 #menu a[href*="乳がん"],
 #menu a[href*="%E4%B9%B3%E3%81%8C%E3%82%93"] {
