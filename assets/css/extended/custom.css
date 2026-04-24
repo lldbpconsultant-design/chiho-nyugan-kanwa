@@ -1,6 +1,6 @@
 /* 乳がん記事：背景色 */
 article.category-nyugan {
-    background-color: #FFF0F5;
+    background-color: #FFF5F8;
     border-radius: 8px;
     padding: 1rem;
 }
@@ -15,7 +15,7 @@ article.category-kanwa {
 /* 乳がんカテゴリー：淡いピンク（タグバッジ） */
 .post-tags a[href*="乳がん"],
 .post-tags a[href*="%E4%B9%B3%E3%81%8C%E3%82%93"] {
-    background-color: #FFD6E7;
+    background-color: #FFDDE9;
     color: #B5446E !important;
     border: 1px solid #F0A8BF;
     border-radius: 4px;
