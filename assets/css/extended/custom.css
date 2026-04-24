@@ -76,6 +76,16 @@ article.category-kanwa {
 .card-soccer { background-color: #FFF0F0; border-color: #F0A8A8; }
 .card-soccer .card-title { color: #B54444; }
 
+/* スマホでのタイトル文字サイズ調整 */
+@media (max-width: 480px) {
+    .logo a {
+        font-size: 0.85em;
+    }
+    .home-info h1 {
+        font-size: 1.4em;
+    }
+}
+
 /* 目次の背景を白に */
 .toc {
     background-color: #ffffff;
