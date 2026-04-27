@@ -3,6 +3,10 @@ languageCode: "ja"
 title: "地方住み医師の乳癌と緩和ケア相談所"
 theme: "PaperMod"
 
+services:
+  googleAnalytics:
+    ID: "G-1Q24TKR35D"
+
 params:
   homeInfoParams:
     Title: "地方住み医師の乳癌と緩和ケア相談所"
