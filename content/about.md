@@ -3,7 +3,7 @@ title: "このブログについて"
 date: 2026-04-24
 ---
 
-{{< figure src="/images/doctor_man_smile.png" alt="医師のイラスト" width="160" >}}
+{{< figure src="/images/memoji_profile.png" alt="筆者のメモジ" width="160" >}}
 
 ## はじめまして
 
